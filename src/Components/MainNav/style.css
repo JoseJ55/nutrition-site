@@ -1,0 +1,23 @@
+#MainNav {
+    background-color: var(--black);
+    color: var(--textWhite);
+    display: flex;
+    justify-content: center;
+}
+
+#mNav {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+#icons {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+#icon {
+    margin-right: 1vw;
+}

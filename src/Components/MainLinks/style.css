@@ -1,0 +1,26 @@
+#mainLinks {
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#mainLinks p {
+    padding: 4vh 3vw;
+    font-size: 1.3rem;
+}
+
+#test:hover {
+    cursor: pointer;
+}
+
+#recipe {
+    display: none;
+}
+
+#test:hover #recipe {
+    display: block;
+    position: absolute;
+    background-color: var(--black);
+}
