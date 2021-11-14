@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-#mainLinks p {
+/* #mainLinks p {
     padding: 4vh 3vw;
     font-size: 1.3rem;
 }
@@ -23,4 +23,4 @@
     display: block;
     position: absolute;
     background-color: var(--black);
-}
+} */

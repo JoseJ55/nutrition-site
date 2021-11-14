@@ -1,0 +1,19 @@
+#ingredentsTitle {
+    padding: 4vh 3vw;
+    font-size: 1.3rem;
+}
+
+#mainLinkIngredients:hover {
+    cursor: pointer;
+}
+
+#ingredients {
+    display: none;
+}
+
+#mainLinkIngredients:hover #ingredients {
+    display: block;
+    position: absolute;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}

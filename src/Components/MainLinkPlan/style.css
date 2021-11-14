@@ -1,0 +1,19 @@
+#planTitle {
+    padding: 4vh 3vw;
+    font-size: 1.4rem;
+}
+
+#mainLinkPlan:hover {
+    cursor: pointer;
+}
+
+#plan {
+    display: none;
+}
+
+#mainLinkPlan:hover #plan {
+    display: block;
+    position: absolute;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}

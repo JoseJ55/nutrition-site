@@ -1,0 +1,31 @@
+#recipeTitle {
+    padding: 4vh 3vw;
+    font-size: 1.4rem;
+}
+
+#mainLinkRecipe:hover {
+    cursor: pointer;
+}
+
+#recipe {
+    display: none;
+}
+
+.dropItem {
+    color: black;
+    font-size: 1.3rem;
+    width: fit-content;
+    margin: 4vh 3vw;
+}
+
+#mainLinkRecipe:hover #recipe {
+    display: block;
+    position: absolute;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+.dropItem:hover {
+    color: var(--mainColor);
+    text-decoration: underline;
+}
